@@ -31,13 +31,13 @@ const ButtonProp = ({ title }: Button) => {
 
 export const Catogories = () => {
   return (
-    <section className="w-full px-6 md:px-24 ">
+    <section className="w-full px-6 md:px-20 ">
       <div className=" md:pb-12">
-        <h2 className="text-3xl md:text-7xl">The most hyper-curated </h2>
-        <h2 className="text-3xl md:text-7xl">list of creatives on earth.</h2>
+        <h2 className="text-3xl md:text-6xl lg:text-7xl">The most hyper-curated </h2>
+        <h2 className="text-3xl md:text-6xl lg:text-7xl">list of creatives on earth.</h2>
       </div>
       <div className="w-full py-10 flex items-center justify-between gap-5">
-        <div className="flex gap-3 md:gap-5">
+        <div className="w-screen flex overflow-x-scroll gap-5 scroll">
           <ButtonProp title="Popular" />
           <ButtonProp title="Business" />
           <ButtonProp title="Crypto" />

@@ -13,13 +13,13 @@ export const Navbar = () => {
   ];
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className="flex justify-between items-center py-7 px-4 md:px-12 md:gap-24 relative z-30 text-lg">
+    <nav className="flex justify-between items-center py-7 px-4 lg:px-20 lg:gap-24 relative z-30 text-lg">
       <span className="flex gap-2 text-sm md:text-lg tracking-wide text-[#858e96]">
         <Image src="/logo.png" alt="logo" width={24} height={24} />
         Predictify Finance{" "}
       </span>
       <menu
-        className={`w-full md:w-auto flex items-center flex-col md:flex-row gap-6 md:gap-12 absolute md:static top-20 left-0 py-6 transition-all linear duration-700 ${
+        className={`w-full md:w-auto flex items-center flex-col md:flex-row gap-6 md:gap-8 lg:gap-12 absolute md:static top-20 left-0 py-6 transition-all linear duration-700 ${
           showMenu ? "opacity-100 bg-black" : " opacity-0 md:opacity-100"
         }`}
       >
@@ -31,7 +31,7 @@ export const Navbar = () => {
       </menu>
       <button
         type="button"
-        className="bg-white text-black px-3 text-sm md:text-xl py-2 rounded-3xl font-semibold"
+        className="bg-white text-black px-3 text-sm md:text-lg lg:text-xl py-2 rounded-3xl font-semibold"
       >
         Coming Soon
       </button>
