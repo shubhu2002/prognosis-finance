@@ -20,7 +20,7 @@ export const Navbar = () => {
       </span>
       <menu
         className={`w-full md:w-auto flex items-center flex-col md:flex-row gap-6 md:gap-16 absolute md:static top-20 left-0 py-6 transition-all linear duration-700 ${
-          showMenu ? "opacity-100 bg-black" : " opacity-0"
+          showMenu ? "opacity-100 bg-black" : " opacity-0 md:opacity-100"
         }`}
       >
         {Nav_Links.map((link) => (
