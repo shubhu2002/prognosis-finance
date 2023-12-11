@@ -3,9 +3,14 @@ import Image from "next/image";
 
 export const Desktop = () => {
   return (
-    <section className="py-6 md:py-24 flex flex-col items-center justify-center">
-      <div className=" flex mx-auto">
-        <Image src="/desktop.png" alt="desktop" height={1200} width={1200} />
+    <section className="py-6 md:py-24 flex flex-col items-center justify-center relative z-10">
+      <div className=" flex mx-auto relative z-30">
+        <div className="flex -z-10">
+          <div className="ellipse3 absolute left-[10%] bottom-32"></div>
+          <div className="ellipse2 absolute left-[50%] -translate-x-1/2 bottom-32"></div>
+          <div className="ellipse3 absolute left-[65%] bottom-32"></div>
+        </div>
+        <Image src="/desktop.png" alt="desktop" height={1200} width={1200} className="z-10 relative"/>
       </div>
       <div className="w-full flex flex-col items-center text-center py-10">
         <h4 className="text-3xl md:text-4xl min-w-xs">

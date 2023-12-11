@@ -60,57 +60,71 @@ ul {
 }
 
 .ellipse1 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
   background: #3da0fc;
   filter: blur(147px);
 }
 .ellipse2 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
-  background: #633DFC;
+  background: #6F3DFC;
   filter: blur(147px);
 }
 .ellipse3 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
-  background: #E64DFF;
+  background: #FF4DAD;
   filter: blur(147px);
 }
 .ellipse4 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
-  background: #4DEAFF;
+  background: #4deaff;
   filter: blur(147px);
 }
 .ellipse5 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
-  background: #849FFF;
+  background: #849fff;
   filter: blur(147px);
 }
 .ellipse6 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: 20%;
   flex-shrink: 0;
-  background: #7684FF;
+  background: #7684ff;
   filter: blur(147px);
-} 
+}
 .scroll::-webkit-scrollbar {
-  width: 0;  /* Remove scrollbar space */
+  width: 0; /* Remove scrollbar space */
 }
 
 /* Optional: style the track and handle (thumb) */
 .scroll::-webkit-scrollbar-track {
-  background-color: transparent;  /* Change this to set the track color */
+  background-color: transparent; /* Change this to set the track color */
 }
 
 .scroll::-webkit-scrollbar-thumb {
-  background-color: transparent;  /* Change this to set the thumb color */
+  background-color: transparent; /* Change this to set the thumb color */
 }
 
+.float {
+  white-space: nowrap;
+  animation: floating 30s linear infinite forwards;
+}
+
+@keyframes floating {
+ 0%,100% {
+    transform: translateX(-90%);
+  }
+ 50% {
+  transform: translateX(90%);
+  }
+
+}

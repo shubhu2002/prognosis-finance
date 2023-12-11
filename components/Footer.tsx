@@ -7,12 +7,12 @@ export const Footer = () => {
   return (
     <footer className="w-full flex flex-col items-center  relative overflow-hidden border-t-2 border-opacity-10 border-primary">
       <div className="flex ">
-        <div className="ellipse1 absolute -left-[20%] -top-80 lef"></div>
-        <div className="ellipse2 absolute left-0 -top-80"></div>
-        <div className="ellipse3 absolute left-[25%] -top-80"></div>
-        <div className="ellipse4 absolute left-[50%] -top-80"></div>
-        <div className="ellipse5 absolute left-[75%] -top-80"></div>
-        <div className="ellipse6 absolute -right-[20%] -top-80"></div>
+        <div className="ellipse1 absolute -left-[20%] -top-60 lef"></div>
+        <div className="ellipse2 absolute left-0 -top-60"></div>
+        <div className="ellipse3 absolute left-[25%] -top-60"></div>
+        <div className="ellipse4 absolute left-[50%] -top-60"></div>
+        <div className="ellipse5 absolute left-[75%] -top-60"></div>
+        <div className="ellipse6 absolute -right-[20%] -top-60"></div>
       </div>
       <div className="py-6">
         <Image src="/logo2.png" alt="logo" width={98} height={98} />
