@@ -2,26 +2,115 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap");
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: rgba(14 14 14);
+  color: white;
 }
+.bg {
+  background: radial-gradient(
+    74.22% 64.62% at 26.36% 14.29%,
+    #1a1a1a 0%,
+    #151515 50%,
+    #101010 100%
+  );
+  stroke-width: 0.939px;
+  stroke: rgba(255, 255, 255, 0);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: General Sans;
+}
+
+h1 {
+  font-family: Trap;
+  font-size: 6vw;
+}
+p {
+  color: #858e96;
+}
+
+.testomonialBox {
+  border-radius: 16px;
+  border-top: 1px solid rgba(223, 243, 253, 0.11);
+  border-right: 1px solid rgba(223, 243, 253, 0.11);
+  border-left: 1px solid rgba(223, 243, 253, 0.11);
+  background: linear-gradient(
+    180deg,
+    rgba(80, 80, 80, 0.15) 0%,
+    rgba(0, 0, 0, 0) 70%
+  );
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.ellipse1 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #3da0fc;
+  filter: blur(147px);
+}
+.ellipse2 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #633DFC;
+  filter: blur(147px);
+}
+.ellipse3 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #E64DFF;
+  filter: blur(147px);
+}
+.ellipse4 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #4DEAFF;
+  filter: blur(147px);
+}
+.ellipse5 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #849FFF;
+  filter: blur(147px);
+}
+.ellipse6 {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+  background: #7684FF;
+  filter: blur(147px);
+} 
+.scroll::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+}
+
+/* Optional: style the track and handle (thumb) */
+.scroll::-webkit-scrollbar-track {
+  background-color: transparent;  /* Change this to set the track color */
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;  /* Change this to set the thumb color */
+}
+
