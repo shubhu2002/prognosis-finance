@@ -62,42 +62,36 @@ ul {
 .ellipse1 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #3da0fc;
   filter: blur(147px);
 }
 .ellipse2 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #6F3DFC;
   filter: blur(147px);
 }
 .ellipse3 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #FF4DAD;
   filter: blur(147px);
 }
 .ellipse4 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #4deaff;
   filter: blur(147px);
 }
 .ellipse5 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #849fff;
   filter: blur(147px);
 }
 .ellipse6 {
   width: 20%;
   height: 20%;
-  flex-shrink: 0;
   background: #7684ff;
   filter: blur(147px);
 }
